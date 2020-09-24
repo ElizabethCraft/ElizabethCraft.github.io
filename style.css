@@ -1,11 +1,23 @@
 body {
-    background: rgba(139, 215, 235, 0.699);
+    background: lightgray;
     font-family:Arial, Helvetica, sans-serif;
 }
+
+.assignment {
+    background: rgba(139, 215, 235, 0.699);
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.assignment img {
+    width: 275px;
+    margin: 25px;
+}
+
 h1 {
     text-align: center;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
-a {
-    margin-bottom: 100px;
-}
+
+
