@@ -1,35 +1,50 @@
+/*Halloween color scheme: 
+Body: background = #5E1742 
+Assignment: background = #962E40; box-shadow = #330136
+Assignment img: border = #330136
+H1: color = #C9463D
+A: color = black
+Assignment a:hover: color = #C9463D
+*/
 body {
-    background: #5E1742;
+    background: #F2AC63;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.assignment {
+.assignments {
     display:flex;
-    background: #962E40;
+    flex-wrap:wrap;
+}
+
+.assignment {
+    width:29%;
+    background: #D97246;
     padding: 10px;
     margin: 10px;
     margin-bottom: 30px;
     border-radius: 5px;
-    box-shadow: 5px 10px #330136;
+    box-shadow: 5px 10px #744533;
 }
 
 .assignment img {
     width: 250px;
-    border: 2px solid #330136;
+    border: 2px solid #8C5042;
     margin-right: 20px;
     border-radius: 5px;
+    display:block;
+    margin:auto;
 }
 
 h1 {
-    color: #C9463D;
+    color: #744533;
     text-align: center;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: #583528;
 }
 
 .assignment a:hover {
-    color: #C9463D;
+    color: #f3cba9;
 }
