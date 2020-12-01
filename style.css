@@ -1,13 +1,22 @@
-/*Halloween color scheme: 
+/*
+Halloween color scheme: 
 Body: background = #5E1742 
 Assignment: background = #962E40; box-shadow = #330136
 Assignment img: border = #330136
 H1: color = #C9463D
 A: color = black
 Assignment a:hover: color = #C9463D
+
+Thanksgiving color scheme:
+Body: background =  #F2AC63
+Assignment: background = #D97246; box-shadow = #744533
+Assignment img: border =  #8C5042
+H1: color = #744533
+A: color =  #583528
+Assignment a:hover: color = #f3cba9
 */
 body {
-    background: #F2AC63;
+    background: #4A738C;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -18,17 +27,17 @@ body {
 
 .assignment {
     width:28%;
-    background: #D97246;
+    background: #A9C6D9;
     padding: 10px;
     margin: 10px;
     margin-bottom: 30px;
     border-radius: 5px;
-    box-shadow: 5px 10px #744533;
+    box-shadow: 5px 10px #132B40;
 }
 
 .assignment img {
     width: 250px;
-    border: 2px solid #8C5042;
+    border: 2px solid #132B40;
     margin-right: 20px;
     border-radius: 5px;
     display:block;
@@ -36,15 +45,15 @@ body {
 }
 
 h1 {
-    color: #744533;
+    color: white;
     text-align: center;
 }
 
 a {
     text-decoration: none;
-    color: #583528;
+    color: white;
 }
 
 .assignment a:hover {
-    color: #f3cba9;
+    color: #D5E5F2;
 }
